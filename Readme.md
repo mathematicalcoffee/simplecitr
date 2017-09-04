@@ -4,15 +4,15 @@ This is an Rstudio addin that implements rudimentary autocomplete of citation
 keys from a bib file. Ideally triggered by a keybinding.
 The idea is to save clicking/raising hands from the keyboard as much as possible.
 
-This is different to `citr` and both can be used together.
+This is different to [`citr`](https://github.com/crsh/citr) and both can be used together.
 The intended usage of `simplecitr` is to autocomplete a single reference from a key that
 you have already partly typed in, only showing a UI if absolutely necessary (if there
 is more than one match). If the UI is shown it is meant to be able to be operated
 with minimial clicking/extra keystrokes.
 
-`citr` is for adding multiple citations at once, has Zotero support, etc etc.
-More clicking is generally required (or Tabbing, to get to the 'Done' button of the
-diagog).
+`citr` is for adding multiple citations at once, has Zotero support, better search, etc etc.
+It does more, but more clicking is generally required (or Tabbing, to get to the 'Done' button of the
+diagog). It searches authors and titles and so on while `simplecitr` is really just for quick and dirty autocompletion of cite keys.
 
 (This package isn't officially affiliated with `citr` or anything, I was just looking for a citation autocomplete, found `citr`, and wanted a version of it that didn't need so much clicking/keyboarding).
 
