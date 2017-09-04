@@ -1,0 +1,4 @@
+Name: Autocomplete citations
+Description: Autocompletes Markdown citations
+Binding: autocomplete.citation
+Interactive: false
